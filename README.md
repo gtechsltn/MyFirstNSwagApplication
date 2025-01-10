@@ -3,6 +3,18 @@
 + NSwag.AspNetCore
 + NSwag.MSBuild
 
+This is a simple application to demonstrate the use of NSwag to generate a swagger client for a Web API with a .NET 8 backend. 
+
+Each branch of this repository will demonstrate a different aspect of the NSwag tooling built upon the base simple .NET 8 application. A detailed list of each branch and its use case will be provided below.
+
+Along with it the link to the medium article explain the use case of each branch will be provided.
+
+1. **main**: A default .NET 8 web application to demonstrate simple NSwag configuration/setup.
+2. **customizingnswagdocumentone**: Modified Program.cs with code to customize Open Api document name and title.
+2. **customizingnswagdocumentone**: Modified Program.cs with code to customize Swagger Ui hosting path as well as swagger json hosting Uri.
+4. **nswagmsbuild1**: Install MSBuild package to .Net 8 application and create swagger.json during post build process.
+5. **nswagtypemapper**: Understand Type mapper implementation with a well know long integer rounding off issues.
+
 ## Understand & Setup .NET 8 application with NSwag together
 
 https://medium.com/@vamsidogiparthi/understand-setup-net-8-application-with-nswag-together-4aaa4d764c65
@@ -34,17 +46,3 @@ https://github.com/vamsidogiparthi/MyFirstNSwagApplication/tree/customuriforswag
 ## Install MSBuild package to .Net 8 application and create swagger.json during post build process.
 
 https://github.com/vamsidogiparthi/MyFirstNSwagApplication/tree/nswagmsbuild1
-
-# NSwag in ASP.NET Core
-
-This is a simple application to demonstrate the use of NSwag to generate a swagger client for a Web API with a .NET 8 backend. 
-
-Each branch of this repository will demonstrate a different aspect of the NSwag tooling built upon the base simple .NET 8 application. A detailed list of each branch and its use case will be provided below.
-
-Along with it the link to the medium article explain the use case of each branch will be provided.
-
-1. **main**: A default .NET 8 web application to demonstrate simple NSwag configuration/setup.
-2. **customizingnswagdocumentone**: Modified Program.cs with code to customize Open Api document name and title.
-2. **customizingnswagdocumentone**: Modified Program.cs with code to customize Swagger Ui hosting path as well as swagger json hosting Uri.
-4. **nswagmsbuild1**: Install MSBuild package to .Net 8 application and create swagger.json during post build process.
-5. **nswagtypemapper**: Understand Type mapper implementation with a well know long integer rounding off issues.
